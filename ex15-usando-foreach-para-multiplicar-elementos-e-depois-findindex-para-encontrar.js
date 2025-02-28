@@ -14,7 +14,7 @@ console.log(resultado);
 const numeroBuscado = 21;
 
 // Encontra o índice do número buscado no array original
-indiceOriginal = numeros.findIndex(numero => numero === numeroBuscado);
+indiceDoNumeroBuscado = numeros.findIndex(numero => numero === numeroBuscado);
 
 // Imprime no console a posição do número buscado e a relação entre o número original e seu resultado multiplicado
-console.log(`O número ${numeroBuscado} no array original está no índice ${indiceOriginal}, pois ${resultado[indiceOriginal]/3} * 3 = ${resultado[indiceOriginal]}`);
+console.log(`O número ${numeroBuscado} no array original está no índice ${indiceDoNumeroBuscado}, pois ${numeroBuscado} * 3 = ${resultado[indiceDoNumeroBuscado]}`);
